@@ -76,6 +76,16 @@ public class Main {
 				t1.mostrar();
 				t2.mostrar();
 				
+				// Reloj con formato
+				System.out.println("\n===== RELOJ =====");
+
+				Reloj r1 = new Reloj(14, 30, 45);
+				Reloj r2 = new Reloj(25, 70, -5); // Prueba de validacion
+
+				System.out.println("Hora 1: " + r1.mostrarHora());
+				System.out.println("Hora 2: " + r2.mostrarHora());
+				
+				
 				
 	}
 }
