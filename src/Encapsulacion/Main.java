@@ -84,6 +84,15 @@ public class Main {
 
 				System.out.println("Hora 1: " + r1.mostrarHora());
 				System.out.println("Hora 2: " + r2.mostrarHora());
+
+				// Contacto con telefono
+				System.out.println("\n===== CONTACTO =====");
+
+				Contacto cont1 = new Contacto("Roberto Leiva", "50394241", "robertoleiva155@gmail.com");
+				Contacto cont2 = new Contacto("Suri Lopez", "15401", "correo_invalido"); // Prueba de validacion
+
+				cont1.mostrarContacto();
+				cont2.mostrarContacto();
 				
 				
 				
