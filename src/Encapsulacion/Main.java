@@ -67,6 +67,15 @@ public class Main {
 				e1.mostrar();
 				e2.mostrar();
 				
+				// Termometro inteligente
+				System.out.println("\n===== TERMOMETRO =====");
+
+				Termometro t1 = new Termometro(25);
+				Termometro t2 = new Termometro(-300); // Prueba de validacion
+
+				t1.mostrar();
+				t2.mostrar();
+				
 				
 	}
 }
