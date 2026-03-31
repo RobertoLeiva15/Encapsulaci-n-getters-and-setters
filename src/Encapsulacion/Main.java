@@ -47,6 +47,14 @@ public class Main {
 				// Prueba de validacion (saldo insuficiente)
 				c1.retirar(2000, 1234);
 				
-				
+				// Curso y calificaciones
+				System.out.println("\n===== CURSO Y CALIFICACIONES =====");
+
+				CursoyCalificaciones curso1 = new CursoyCalificaciones("Matematica", 80, 70, 90);
+				CursoyCalificaciones curso2 = new CursoyCalificaciones("Programacion", 50, 40, 60);
+
+				// Prueba de validacion
+				curso1.mostrar();
+				curso2.mostrar();
 	}
 }
