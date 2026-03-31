@@ -31,5 +31,22 @@ public class Main {
 
 				prod1.mostrar();
 				prod2.mostrar();
+				
+				// Cuenta con pin 
+				System.out.println("\n===== CUENTA BANCARIA =====");
+
+				CuentaBancaria c1 = new CuentaBancaria("Roberto Leiva", 1000, 1234);
+
+				// Prueba de validacion (PIN correcto)
+				c1.retirar(200, 1234);
+				c1.mostrar();
+
+				// Prueba de validacion (PIN incorrecto)
+				c1.retirar(100, 1111);
+
+				// Prueba de validacion (saldo insuficiente)
+				c1.retirar(2000, 1234);
+				
+				
 	}
 }
