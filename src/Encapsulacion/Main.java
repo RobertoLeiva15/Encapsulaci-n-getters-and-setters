@@ -94,6 +94,20 @@ public class Main {
 				cont1.mostrarContacto();
 				cont2.mostrarContacto();
 				
+				// Juego con puntaje maximo
+				System.out.println("\n===== JUEGO CON PUNTAJE MAXIMO=====");
+
+				Jugador j1 = new Jugador("Roberto", 50);
+				Jugador j2 = new Jugador("Suri", 90);
+				
+				// Prueba de validacion
+				j1.actualizarPuntaje(80);  // nuevo maximo
+				j1.actualizarPuntaje(60);  // no supera el maximo
+				j1.actualizarPuntaje(-10); // invalido
+
+				j1.mostrar();
+				j2.mostrar();
+				
 				
 				
 	}
