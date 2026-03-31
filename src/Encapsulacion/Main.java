@@ -56,5 +56,17 @@ public class Main {
 				// Prueba de validacion
 				curso1.mostrar();
 				curso2.mostrar();
+				
+				// Estudiante y beca
+				System.out.println("\n===== ESTUDIANTE Y BECA =====");
+
+				EstudianteBeca e1 = new EstudianteBeca("2025001", "Roberto Leiva", 90);
+				EstudianteBeca e2 = new EstudianteBeca("2025002", "Suri Lopez", 70);
+
+				// Prueba de validacion
+				e1.mostrar();
+				e2.mostrar();
+				
+				
 	}
 }
