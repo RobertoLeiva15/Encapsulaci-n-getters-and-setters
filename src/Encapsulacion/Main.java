@@ -18,5 +18,18 @@ public class Main {
 				// Prueba de validación
 				Persona p4 = new Persona("Pablo", "Guerra", -5);
 				p4.mostrar();
+				
+				// Clase Producto
+				System.out.println("\n===== PRODUCTO =====");
+
+				Producto prod1 = new Producto("P01", "Laptop", 8000, 5);
+				Producto prod2 = new Producto("P02", "Mouse", 120, 2);
+
+				// Probar ventas
+				prod1.vender(3); // sí hay stock
+				prod2.vender(5); // no hay suficiente
+
+				prod1.mostrar();
+				prod2.mostrar();
 	}
 }
