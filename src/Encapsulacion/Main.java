@@ -108,7 +108,13 @@ public class Main {
 				j1.mostrar();
 				j2.mostrar();
 				
-				
-				
+				// Factura con total
+				System.out.println("\n===== FACTURA =====");
+
+				FacturaTotal f1 = new FacturaTotal("F001", "Teclado", 2, 150);
+				FacturaTotal f2 = new FacturaTotal("F002", "Monitor", -3, -500); // Prueba de validacion
+
+				f1.mostrarFactura();
+				f2.mostrarFactura();
 	}
 }
